@@ -53,3 +53,21 @@ function deleni(num1, num2) {
 }
 
 deleni(4,6)
+
+// Napiš funkci printRange, která vypíše do 
+// konzole všechna čísla od parametru start až po end
+// postup:
+// 1) Deklarace funkce
+// 2) Definování parametrů
+// 3) for smyčka
+// 4) Vyvolání funkce a argumentů
+
+
+function printRange(start, end) {
+  for (let i = start; i <= end; i++) {
+    console.log(i);
+  }
+}
+
+printRange(3, 7);
+printRange(10, 15);
