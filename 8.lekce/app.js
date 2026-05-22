@@ -118,3 +118,18 @@ function deleni(num1, num2) {
 }
 
 deleni(4,6)
+
+
+// Deklarace funkce
+// Cyklus for let i = (parametr); i <= (parametr); i++;
+// console.log(i)
+
+function printRange(start, end) {
+  for (let i = start; i <= end; i++) {
+    console.log(i);
+  }
+}
+
+
+// Volání funkce
+printRange(1,4)
