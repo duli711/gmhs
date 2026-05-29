@@ -133,3 +133,45 @@ function printRange(start, end) {
 
 // Volání funkce
 printRange(1,4)
+
+
+
+function multiply(a,b) {
+    let result = a * b;
+    return result;
+}
+
+result = multiply(5,10)
+console.log(result)
+
+console.log(multiply(5,10))
+
+function test() {
+    return "Hotovo";
+    console.log("Tady by byl nějaký text")
+}
+
+console.log(test());
+
+function vek(age) {
+    if (age >= 18) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+console.log(vek(21))
+
+console.log(9 % 2)
+
+// Deklarace funkce
+// Vrací true pokud je sudé, vrací false pokud je liché
+// 
+
+function sudeLiche(cislo) {
+    return cislo % 2 === 0;
+}
+
+console.log(sudeLiche(10)); // true
+console.log(sudeLiche(5)); // false
